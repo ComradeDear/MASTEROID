@@ -48,7 +48,7 @@ else:
 
         print("Initialised Sucessfully")
 
-        print("Starting Dark AI")
+        print("Starting")
 
         bot.loop.run_until_complete(add_bot(Var.TG_BOT_USER_NAME_BF_HER))
 
@@ -112,7 +112,7 @@ else:
 
     print("Assitant is Not Loading As U Have Disabled")
 
-print("DARK VENOM userbot AND YOUR ASSISTANT is Active Enjoy Join @Venom_Userbot_channel For Updates.")
+print("MASTEROID AND YOUR ASSISTANT is Active Enjoy.")
 
 if len(argv) not in (1, 3, 4):
 
