@@ -1,4 +1,4 @@
-# Made by @Hackintush
+
 
 import asyncio
 import time
@@ -13,15 +13,15 @@ from userbot.utils import admin_cmd
 from . import *
 
 #### Variables ####
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "𑀥ᥲrκ Vᥱᥒ᧐ⲙ"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "**MASTEROID##**"
 
 ALIVE_MSG = Config.ALIVE_MSG
 if ALIVE_MSG is None :
-    ALIVE_MSG = f"This is {DEFAULTUSER} Dark Venom Userbot"
+    ALIVE_MSG = f"This is {DEFAULTUSER} "MASTEROID"
 
 ALIVE_PIC = Config.ALIVE_PHOTTO
 if ALIVE_PIC is None :
-    ALIVE_PIC = "https://telegra.ph/file/e6fe4a42cc9ccc08c9d32.jpg"
+    ALIVE_PIC = "https://telegra.ph/file/27429a8aa60255b15f77e.jpg"
 
 botversion = "0.1"
 
@@ -57,20 +57,14 @@ async def alive(e):
     ping = (end - start).microseconds / 1000
     uptime = get_readable_time((time.time() - Lastupdate))
     cap = """
-**𑀥ᥲrκ Vᥱᥒ᧐ⲙ 𐌵sᥱrδ᧐ᴛ**
+**MASTEROID**
 **{}**
 ✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵✵
-╔════❰ Ⲃⲟⲧ Ⲓⲛϝⲟʀⲙⲁⲧⲓⲟⲛ ❱═❍⊱❁۪۪۪
-║╭━━━━━━━━━━━━━━━➣ 
-║┣⪼ **Ⲟⲱⲛⲉʀ** - `{}` 
-║┣⪼ **Ⲋⲧⲁⲧυⲋ** - `Ⲟⲛⳑⲓⲛⲉ`
-║┣⪼ **Ⲃⲟⲧ Ⳳⲉʀⲋⲓⲟⲛ** - `{}`
-║┣⪼ **Ⳙⲣⲧⲓⲙⲉ** - `{}` 
-║┣⪼ **Ⲃⲟⲧ Ⲣⲓⲛⳋ** - `{}
-║┣⪼ **Ⲣⲩⲧⲏⲟⲛ** - `{}` 
-║┣⪼ **Ⲧⲉⳑⲉⲧⲏⲟⲛ** - `{}` 
-║┣⪼ [✨𑀥ᥲrκ Vᥱᥒ᧐ⲙ 𐌵sᥱrδ᧐ᴛ✨](https://github.com/VENOM-USERBOT/DARK-VENOM/)
-║╰━━━━━━━━━━━━━━━➣ ╚══════════════════❍⊱❁۪۪۪
+pm_caption = "**MASTEROID is onLINE**\n\n"
+pm_caption += f"**MASTER**           : {DEFAULTUSER}\n"
+pm_caption += "**UPDATES**        : [updates](https://t.me/MASTEROID_CHANNLE)\n"
+pm_caption += "**Support Group**           : [SUPPORT GROUP](https://t.me/MASTEROID_SUPPORT)\n"
+
 """.format(
         ALIVE_MSG,
         DEFAULTUSER,
@@ -93,6 +87,6 @@ CMD_HELP.update(
     {
         "alive": "**ALive**\
 \n\n**Syntax : **`.alive`\
-\n**Usage :** Check if 𑀥ᥲrκ Vᥱᥒ᧐ⲙ 𐌵sᥱrδ᧐ᴛ is alive"
+\n**Usage :** Check if MASTEROID is alive"
     }
 )
