@@ -20,7 +20,7 @@
     },
 
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @hellboi_atul.",
+      "description": "Fill your Full name or Username like @THE_DEAR_COMRADE.",
       "value": "",
       "required": true
     },
@@ -31,12 +31,12 @@
     },
     "ALIVE_PHOTTO": {
       "description": "Let it be what it is(skip)..or you can change the link according to your convince..this link is useful for `.awake` command.",
-      "value": "https://telegra.ph/file/0d0fafe17acca1c51b42d.jpg",
+      "value": "https://telegra.ph/file/27429a8aa60255b15f77e.jpg",
       "required": true
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for pmpermit custom pic.",
-      "value": "https://telegra.ph/file/ad8430d78a8e1adb3d8ea.jpg",
+      "value": "https://telegra.ph/file/27429a8aa60255b15f77e.jpg",
       "required": true
     },
     "APP_ID": {
@@ -57,7 +57,7 @@
       "required" : true
     }, 
     "STRING_SESSION": {
-      "description": "Get this value by running https://darkcobra.crazycreatorr.repl.run/ ",
+      "description": "GIVE ANY TELETHON STRING HERE ",
       "value": "",
       "required": true
     },
