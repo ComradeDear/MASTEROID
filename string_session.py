@@ -2,7 +2,7 @@ from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 
 print("")
-print("""Welcome To Venom String Generator By Venom Official""")
+print("""Welcome To MASTEROID string session generator""")
 print("""Kindly Enter Your Details To Continue ! """)
 
 API_KEY = input("API_KEY: ")
@@ -22,7 +22,7 @@ while True:
    )
 
    print(
-       "Thanks for Choosing Venom Have A Good Time....Note That When You Terminate the Old Session ComeBack And Genrate A New String Session Old One Won't Work"
+       "Thanks for Choosing MASTEROID... Have A Good Time...."
    )
  except:
   print("")
