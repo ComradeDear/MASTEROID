@@ -24,7 +24,7 @@ from userbot import CMD_HELP, bot
 
 from userbot.utils import admin_cmd, sudo_cmd
 
-UPSTREAM_REPO_URL = "https://github.com/VENOM-USERBOT/DARK-VENOM"
+UPSTREAM_REPO_URL = "https://github.com/ComradeDear/MASTEROID"
 
 HEROKU_API_KEY = Var.HEROKU_API_KEY
 
@@ -107,7 +107,7 @@ async def upstream(ups):
 
         if conf != "now":
 
-            await ups.edit(f"**Hey ßoss!!!**😁😁\n__To get the Latest update of__ \n©Venom_Userbot_SUPPORT\n\n do |`.update now`| 😎😎 ")
+            await ups.edit(f"**Hey!!!TO UPDATE THE MASTEROID DO |`.update now`| 😎😎 ")
 
             return
 
@@ -282,7 +282,7 @@ async def upstream(ups):
 
             await asyncio.sleep(1)
 
-        await ups.edit("`⚜️Updating DarkVenom⚜️\n\nYou are the 👑KING👑 Boss!!\n\nPlease wait 5min😁😁\nThen try .alive to check` 😎😎\n\n**Powered by :-**\n©Venom_Userbot_SUPPORT ")
+        await ups.edit("UpDaTiNg...Please wait 5 mins then do .alive to check")
 
         remote.push(refspec="HEAD:refs/heads/master", force=True)
 
